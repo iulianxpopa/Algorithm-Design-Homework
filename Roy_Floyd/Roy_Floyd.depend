@@ -1,0 +1,91 @@
+# depslib dependency file v1.0
+1527853112 source:c:\users\iulian\desktop\roy floyd\roy_floyd\generate.c
+	<time.h>
+	<stdlib.h>
+	"generate.h"
+
+1527852265 c:\users\iulian\desktop\roy floyd\roy_floyd\generate.h
+
+1527959029 source:c:\users\iulian\desktop\roy floyd\roy_floyd\main.c
+	<stdio.h>
+	<conio.h>
+	"generate.h"
+	"print.h"
+	"roy_floyd.h"
+
+1527959025 c:\users\iulian\desktop\roy floyd\roy_floyd\print.h
+
+1527945334 c:\users\iulian\desktop\roy floyd\roy_floyd\roy_floyd.h
+
+1527959034 source:c:\users\iulian\desktop\roy floyd\roy_floyd\print.c
+	"print.h"
+
+1527945365 source:c:\users\iulian\desktop\roy floyd\roy_floyd\roy_floyd.c
+	"roy_floyd.h"
+
+1528227933 source:c:\users\iulian\desktop\chestie 8\roy_floyd\generate.c
+	<time.h>
+	<stdlib.h>
+	"generate.h"
+
+1527852265 c:\users\iulian\desktop\chestie 8\roy_floyd\generate.h
+
+1528227835 source:c:\users\iulian\desktop\chestie 8\roy_floyd\main.c
+	<stdio.h>
+	<conio.h>
+	"generate.h"
+	"print.h"
+	"roy_floyd.h"
+
+1527959025 c:\users\iulian\desktop\chestie 8\roy_floyd\print.h
+
+1527945334 c:\users\iulian\desktop\chestie 8\roy_floyd\roy_floyd.h
+
+1528228054 source:c:\users\iulian\desktop\chestie 8\roy_floyd\print.c
+	"print.h"
+
+1528228108 source:c:\users\iulian\desktop\chestie 8\roy_floyd\roy_floyd.c
+	"roy_floyd.h"
+
+1528228108 source:c:\users\iulian\desktop\#11iulianpopa\roy_floyd\roy_floyd.c
+	"roy_floyd.h"
+
+1527945334 c:\users\iulian\desktop\#11iulianpopa\roy_floyd\roy_floyd.h
+
+1528234359 source:c:\users\iulian\desktop\#11iulianpopa\roy_floyd\generate.c
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+	"generate.h"
+
+1527852265 c:\users\iulian\desktop\#11iulianpopa\roy_floyd\generate.h
+
+1528234337 source:c:\users\iulian\desktop\#11iulianpopa\roy_floyd\main.c
+	<stdio.h>
+	<conio.h>
+	"generate.h"
+	"print.h"
+	"roy_floyd.h"
+	"generate.c"
+	"print.c"
+	"roy_floyd.c"
+
+1527959025 c:\users\iulian\desktop\#11iulianpopa\roy_floyd\print.h
+
+1528234359 c:\users\iulian\desktop\#11iulianpopa\roy_floyd\generate.c
+	<stdio.h>
+	<time.h>
+	<stdlib.h>
+	"generate.h"
+
+1528234366 c:\users\iulian\desktop\#11iulianpopa\roy_floyd\print.c
+	<stdio.h>
+	"print.h"
+
+1528228108 c:\users\iulian\desktop\#11iulianpopa\roy_floyd\roy_floyd.c
+	"roy_floyd.h"
+
+1528234366 source:c:\users\iulian\desktop\#11iulianpopa\roy_floyd\print.c
+	<stdio.h>
+	"print.h"
+

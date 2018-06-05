@@ -1,0 +1,3 @@
+all:
+	gcc main.c roy_floyd.c generate.c print.c -o Floyd
+

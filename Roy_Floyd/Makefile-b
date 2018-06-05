@@ -1,0 +1,17 @@
+all: Floyd
+
+Floyd: main.o print.o roy_floyd.o generate.o
+	gcc main.o print.o roy_floyd.o generate.o -o Floyd
+
+main.o: main.c
+	gcc -c main.c
+
+print.o: print.c
+	gcc -c print.c
+
+roy_floyd.o: roy_floyd.c
+	gcc -c roy_floyd.c
+
+generate.o: generate.c
+	gcc -c generate.c
+
