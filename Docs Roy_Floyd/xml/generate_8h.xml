@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="generate_8h" kind="file" language="C++">
+    <compoundname>generate.h</compoundname>
+    <includedby refid="generate_8c" local="yes">C:/Users/catal/Desktop/chestie 8/Roy_Floyd/generate.c</includedby>
+    <includedby refid="main_8c" local="yes">C:/Users/catal/Desktop/chestie 8/Roy_Floyd/main.c</includedby>
+    <invincdepgraph>
+      <node id="8">
+        <label>C:/Users/catal/Desktop/chestie 8/Roy_Floyd/main.c</label>
+        <link refid="main_8c"/>
+      </node>
+      <node id="7">
+        <label>C:/Users/catal/Desktop/chestie 8/Roy_Floyd/generate.c</label>
+        <link refid="generate_8c"/>
+      </node>
+      <node id="6">
+        <label>C:/Users/catal/Desktop/chestie 8/Roy_Floyd/generate.h</label>
+        <link refid="generate_8h"/>
+        <childnode refid="7" relation="include">
+        </childnode>
+        <childnode refid="8" relation="include">
+        </childnode>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="generate_8h_1a956e2723d559858d08644ac99146e910" prot="public" static="no">
+        <name>INFINITY</name>
+        <initializer>99999</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/catal/Desktop/chestie 8/Roy_Floyd/generate.h" line="1" column="9" bodyfile="C:/Users/catal/Desktop/chestie 8/Roy_Floyd/generate.h" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="generate_8h_1a8d4ea219645520f49f17ec81bb16ef93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int **</type>
+        <definition>int** GenerateRandGraph</definition>
+        <argsstring>(int **matrix, int *nodes_number)</argsstring>
+        <name>GenerateRandGraph</name>
+        <param>
+          <type>int **</type>
+          <declname>matrix</declname>
+        </param>
+        <param>
+          <type>int *</type>
+          <declname>nodes_number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>This method will generate an adjacency matrix and it will be stored in **matrix. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>**matrix graph&apos;s adjacency matrix. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nodes_number the number of graph nodes.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+Resize matrix</para><para>Generate random costs</para><para>Main diagonal </para>        </inbodydescription>
+        <location file="C:/Users/catal/Desktop/chestie 8/Roy_Floyd/generate.h" line="3" column="1" bodyfile="C:/Users/catal/Desktop/chestie 8/Roy_Floyd/generate.c" bodystart="13" bodyend="45"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="generate_8h_1a956e2723d559858d08644ac99146e910" refkind="member"><highlight class="preprocessor">#define<sp/>INFINITY<sp/>99999</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>**<ref refid="generate_8h_1a8d4ea219645520f49f17ec81bb16ef93" kindref="member">GenerateRandGraph</ref>(<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>**matrix,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*nodes_number);</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/catal/Desktop/chestie 8/Roy_Floyd/generate.h"/>
+  </compounddef>
+</doxygen>

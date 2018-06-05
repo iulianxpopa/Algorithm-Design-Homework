@@ -1,0 +1,187 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="print_8h" kind="file" language="C++">
+    <compoundname>print.h</compoundname>
+    <includedby refid="main_8c" local="yes">C:/Users/catal/Desktop/chestie 8/Roy_Floyd/main.c</includedby>
+    <includedby refid="print_8c" local="yes">C:/Users/catal/Desktop/chestie 8/Roy_Floyd/print.c</includedby>
+    <invincdepgraph>
+      <node id="22">
+        <label>C:/Users/catal/Desktop/chestie 8/Roy_Floyd/print.c</label>
+        <link refid="print_8c"/>
+      </node>
+      <node id="20">
+        <label>C:/Users/catal/Desktop/chestie 8/Roy_Floyd/print.h</label>
+        <link refid="print_8h"/>
+        <childnode refid="21" relation="include">
+        </childnode>
+        <childnode refid="22" relation="include">
+        </childnode>
+      </node>
+      <node id="21">
+        <label>C:/Users/catal/Desktop/chestie 8/Roy_Floyd/main.c</label>
+        <link refid="main_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="print_8h_1a956e2723d559858d08644ac99146e910" prot="public" static="no">
+        <name>INFINITY</name>
+        <initializer>99999</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/catal/Desktop/chestie 8/Roy_Floyd/print.h" line="1" column="9" bodyfile="C:/Users/catal/Desktop/chestie 8/Roy_Floyd/print.h" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="print_8h_1a921b41cb0b745c5a64f4987a06648ac2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void print_matrix</definition>
+        <argsstring>(int **matrix, int nodes_number)</argsstring>
+        <name>print_matrix</name>
+        <param>
+          <type>int **</type>
+          <declname>matrix</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nodes_number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>This method will print a matrix. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>**matrix graph&apos;s adjacency matrix. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nodes_number the number of graph nodes. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </inbodydescription>
+        <location file="C:/Users/catal/Desktop/chestie 8/Roy_Floyd/print.h" line="3" column="1" bodyfile="C:/Users/catal/Desktop/chestie 8/Roy_Floyd/print.c" bodystart="13" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="print_8h_1a81a46cab620746bb88e7c79de23e9d76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void path</definition>
+        <argsstring>(int **roy_floyd_matrix, int nodes_number, int start_node, int end_node)</argsstring>
+        <name>path</name>
+        <param>
+          <type>int **</type>
+          <declname>roy_floyd_matrix</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nodes_number</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start_node</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>end_node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/catal/Desktop/chestie 8/Roy_Floyd/print.h" line="4" column="1" bodyfile="C:/Users/catal/Desktop/chestie 8/Roy_Floyd/print.c" bodystart="29" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="print_8h_1af84e0f341bf4d40304ae5a08dcaa1029" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void show_path</definition>
+        <argsstring>(int **roy_floyd_matrix, int nodes_number, int start_node, int end_node, int **matrix)</argsstring>
+        <name>show_path</name>
+        <param>
+          <type>int **</type>
+          <declname>roy_floyd_matrix</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nodes_number</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start_node</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>end_node</declname>
+        </param>
+        <param>
+          <type>int **</type>
+          <declname>matrix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>This method will print the path. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>**roy_floyd_matrix the matrix generated by roy_floyd function </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nodes_number the number of graph nodes. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>start_node first node pf the path. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>end_node last node pf the path. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>**matrix graph&apos;s adjacency matrix. print the path and distance between start and end</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+print alternative route </para>        </inbodydescription>
+        <location file="C:/Users/catal/Desktop/chestie 8/Roy_Floyd/print.h" line="5" column="1" bodyfile="C:/Users/catal/Desktop/chestie 8/Roy_Floyd/print.c" bodystart="48" bodyend="83"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="print_8h_1a956e2723d559858d08644ac99146e910" refkind="member"><highlight class="preprocessor">#define<sp/>INFINITY<sp/>99999</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="print_8h_1a921b41cb0b745c5a64f4987a06648ac2" kindref="member">print_matrix</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>**matrix,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nodes_number);</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="print_8h_1a81a46cab620746bb88e7c79de23e9d76" kindref="member">path</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>**roy_floyd_matrix,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nodes_number,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start_node,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>end_node);</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="print_8h_1af84e0f341bf4d40304ae5a08dcaa1029" kindref="member">show_path</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>**roy_floyd_matrix,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nodes_number,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start_node,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>end_node,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>**matrix);</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/catal/Desktop/chestie 8/Roy_Floyd/print.h"/>
+  </compounddef>
+</doxygen>

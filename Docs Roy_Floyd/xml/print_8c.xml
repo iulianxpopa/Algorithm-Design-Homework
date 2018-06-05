@@ -1,0 +1,272 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="print_8c" kind="file" language="C++">
+    <compoundname>print.c</compoundname>
+    <includes refid="print_8h" local="yes">print.h</includes>
+    <incdepgraph>
+      <node id="16">
+        <label>C:/Users/catal/Desktop/chestie 8/Roy_Floyd/print.c</label>
+        <link refid="print_8c"/>
+        <childnode refid="17" relation="include">
+        </childnode>
+      </node>
+      <node id="17">
+        <label>print.h</label>
+        <link refid="print_8h"/>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="print_8c_1a956e2723d559858d08644ac99146e910" prot="public" static="no">
+        <name>INFINITY</name>
+        <initializer>99999</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/catal/Desktop/chestie 8/Roy_Floyd/print.c" line="6" column="10" bodyfile="C:/Users/catal/Desktop/chestie 8/Roy_Floyd/print.c" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="print_8c_1a74e13fe359ab4d26eea47074de2257a2" prot="public" static="no" mutable="no">
+        <type>int *</type>
+        <definition>int* wae</definition>
+        <argsstring></argsstring>
+        <name>wae</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/catal/Desktop/chestie 8/Roy_Floyd/print.c" line="8" column="1" bodyfile="C:/Users/catal/Desktop/chestie 8/Roy_Floyd/print.c" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="print_8c_1a1c8eaa1d6295ca42a151b5f00be6b6dc" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int it</definition>
+        <argsstring></argsstring>
+        <name>it</name>
+        <initializer>= 2</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/catal/Desktop/chestie 8/Roy_Floyd/print.c" line="8" column="1" bodyfile="C:/Users/catal/Desktop/chestie 8/Roy_Floyd/print.c" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="print_8c_1a921b41cb0b745c5a64f4987a06648ac2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void print_matrix</definition>
+        <argsstring>(int **matrix, int nodes_number)</argsstring>
+        <name>print_matrix</name>
+        <param>
+          <type>int **</type>
+          <declname>matrix</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nodes_number</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>This method will print a matrix. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>**matrix graph&apos;s adjacency matrix. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nodes_number the number of graph nodes. </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </inbodydescription>
+        <location file="C:/Users/catal/Desktop/chestie 8/Roy_Floyd/print.c" line="13" column="1" bodyfile="C:/Users/catal/Desktop/chestie 8/Roy_Floyd/print.c" bodystart="13" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="print_8c_1a81a46cab620746bb88e7c79de23e9d76" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void path</definition>
+        <argsstring>(int **roy_floyd_matrix, int nodes_number, int start_node, int end_node)</argsstring>
+        <name>path</name>
+        <param>
+          <type>int **</type>
+          <declname>roy_floyd_matrix</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nodes_number</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start_node</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>end_node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/catal/Desktop/chestie 8/Roy_Floyd/print.c" line="29" column="1" bodyfile="C:/Users/catal/Desktop/chestie 8/Roy_Floyd/print.c" bodystart="29" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="print_8c_1af84e0f341bf4d40304ae5a08dcaa1029" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void show_path</definition>
+        <argsstring>(int **roy_floyd_matrix, int nodes_number, int start_node, int end_node, int **matrix)</argsstring>
+        <name>show_path</name>
+        <param>
+          <type>int **</type>
+          <declname>roy_floyd_matrix</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nodes_number</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start_node</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>end_node</declname>
+        </param>
+        <param>
+          <type>int **</type>
+          <declname>matrix</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>This method will print the path. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>**roy_floyd_matrix the matrix generated by roy_floyd function </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nodes_number the number of graph nodes. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>start_node first node pf the path. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>end_node last node pf the path. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>**matrix graph&apos;s adjacency matrix. print the path and distance between start and end</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+print alternative route </para>        </inbodydescription>
+        <location file="C:/Users/catal/Desktop/chestie 8/Roy_Floyd/print.c" line="48" column="1" bodyfile="C:/Users/catal/Desktop/chestie 8/Roy_Floyd/print.c" bodystart="48" bodyend="83"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>File which contains the printing functions. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Popa Ionut Iulian </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="print_8h" kindref="compound">print.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="print_8c_1a956e2723d559858d08644ac99146e910" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INFINITY<sp/>99999</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8" refid="print_8c_1a74e13fe359ab4d26eea47074de2257a2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>*<ref refid="print_8c_1a74e13fe359ab4d26eea47074de2257a2" kindref="member">wae</ref>,<sp/><ref refid="print_8c_1a1c8eaa1d6295ca42a151b5f00be6b6dc" kindref="member">it</ref><sp/>=<sp/>2;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13" refid="print_8h_1a921b41cb0b745c5a64f4987a06648ac2" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="print_8c_1a921b41cb0b745c5a64f4987a06648ac2" kindref="member">print_matrix</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>**matrix,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nodes_number){</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/>j;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;%d<sp/>nodes\n&quot;</highlight><highlight class="normal">,<sp/>nodes_number);</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(i<sp/>=<sp/>1;<sp/>i<sp/>&lt;=<sp/>nodes_number;<sp/>i++){</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(j<sp/>=<sp/>1;<sp/>j<sp/>&lt;=<sp/>nodes_number;<sp/>j++){</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;%5d<sp/>&quot;</highlight><highlight class="normal">,matrix[i][j]%<ref refid="print_8c_1a956e2723d559858d08644ac99146e910" kindref="member">INFINITY</ref>);</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="27"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="print_8h_1a81a46cab620746bb88e7c79de23e9d76" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="print_8c_1a81a46cab620746bb88e7c79de23e9d76" kindref="member">path</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>**roy_floyd_matrix,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nodes_number,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start_node,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>end_node){</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>k<sp/>=<sp/>1,<sp/>gasit=0;</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(<sp/>(k<sp/>&lt;=<sp/>nodes_number)<sp/>&amp;&amp;<sp/>(!gasit)<sp/>){</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">((k<sp/>!=<sp/>start_node)<sp/>&amp;&amp;<sp/>(k<sp/>!=<sp/>end_node)<sp/>&amp;&amp;<sp/>(roy_floyd_matrix[start_node][end_node]<sp/>==<sp/>roy_floyd_matrix[start_node][k]<sp/>+<sp/>roy_floyd_matrix[k][end_node])<sp/>){</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="print_8c_1a81a46cab620746bb88e7c79de23e9d76" kindref="member">path</ref>(roy_floyd_matrix,<sp/>nodes_number,<sp/>start_node,<sp/>k);</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="print_8c_1a81a46cab620746bb88e7c79de23e9d76" kindref="member">path</ref>(roy_floyd_matrix,<sp/>nodes_number,<sp/>k,<sp/>end_node);</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>gasit<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>k++;</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!gasit){</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;<sp/>-&gt;<sp/>%d&quot;</highlight><highlight class="normal">,<sp/>end_node);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="print_8c_1a74e13fe359ab4d26eea47074de2257a2" kindref="member">wae</ref>[<ref refid="print_8c_1a1c8eaa1d6295ca42a151b5f00be6b6dc" kindref="member">it</ref>]<sp/>=<sp/>end_node;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="print_8c_1a1c8eaa1d6295ca42a151b5f00be6b6dc" kindref="member">it</ref>++;</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="44"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight></codeline>
+<codeline lineno="48" refid="print_8h_1af84e0f341bf4d40304ae5a08dcaa1029" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="print_8c_1af84e0f341bf4d40304ae5a08dcaa1029" kindref="member">show_path</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>**roy_floyd_matrix,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nodes_number,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start_node,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>end_node,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>**matrix){</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(roy_floyd_matrix[start_node][end_node]<sp/>&lt;<sp/><ref refid="print_8c_1a956e2723d559858d08644ac99146e910" kindref="member">INFINITY</ref>){</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\nDistance<sp/>between<sp/>node<sp/>%d<sp/>and<sp/>node<sp/>%d<sp/>=<sp/>%d<sp/>\n&quot;</highlight><highlight class="normal">,<sp/>start_node,<sp/>end_node,<sp/>roy_floyd_matrix[start_node][end_node]);</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;%d&quot;</highlight><highlight class="normal">,<sp/>start_node);</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="print_8c_1a74e13fe359ab4d26eea47074de2257a2" kindref="member">wae</ref><sp/>=<sp/>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">*)calloc(nodes_number<sp/>+<sp/>1,<sp/></highlight><highlight class="keyword">sizeof</highlight><highlight class="normal">(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal">));</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="print_8c_1a74e13fe359ab4d26eea47074de2257a2" kindref="member">wae</ref>[1]<sp/>=<sp/>start_node;</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="print_8c_1a81a46cab620746bb88e7c79de23e9d76" kindref="member">path</ref>(roy_floyd_matrix,nodes_number,start_node,end_node);</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight><highlight class="keywordflow">else</highlight><highlight class="normal">{</highlight></codeline>
+<codeline lineno="65"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;There<sp/>is<sp/>no<sp/>path<sp/>between<sp/>%d<sp/>and<sp/>%d<sp/>\n&quot;</highlight><highlight class="normal">,<sp/>start_node,<sp/>end_node);</highlight></codeline>
+<codeline lineno="66"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="67"><highlight class="normal"></highlight></codeline>
+<codeline lineno="69"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>i,<sp/>j;</highlight></codeline>
+<codeline lineno="70"><highlight class="normal"><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;\nAlternative<sp/>path<sp/>for<sp/>each<sp/>consecutive<sp/>nodes<sp/>:<sp/>\n&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="71"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(i<sp/>=<sp/>1;<sp/>i<sp/>&lt;<sp/><ref refid="print_8c_1a1c8eaa1d6295ca42a151b5f00be6b6dc" kindref="member">it</ref><sp/>-<sp/>1;<sp/>i++){</highlight></codeline>
+<codeline lineno="72"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>min_distance<sp/>=<sp/><ref refid="print_8c_1a956e2723d559858d08644ac99146e910" kindref="member">INFINITY</ref>;</highlight></codeline>
+<codeline lineno="73"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>intermediary<sp/>=<sp/>-1;</highlight></codeline>
+<codeline lineno="74"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(j<sp/>=<sp/>1;<sp/>j<sp/>&lt;=<sp/>nodes_number;<sp/>j++){</highlight></codeline>
+<codeline lineno="75"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(matrix[<ref refid="print_8c_1a74e13fe359ab4d26eea47074de2257a2" kindref="member">wae</ref>[i]][j]<sp/>+<sp/>matrix[j][<ref refid="print_8c_1a74e13fe359ab4d26eea47074de2257a2" kindref="member">wae</ref>[i<sp/>+<sp/>1]]<sp/>&lt;<sp/>min_distance<sp/>){</highlight></codeline>
+<codeline lineno="76"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>min_distance<sp/>=<sp/>matrix[<ref refid="print_8c_1a74e13fe359ab4d26eea47074de2257a2" kindref="member">wae</ref>[i]][j]<sp/>+<sp/>matrix[j][<ref refid="print_8c_1a74e13fe359ab4d26eea47074de2257a2" kindref="member">wae</ref>[i<sp/>+<sp/>1]];</highlight></codeline>
+<codeline lineno="77"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>intermediary<sp/>=<sp/>j;</highlight></codeline>
+<codeline lineno="78"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="79"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="80"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>printf(</highlight><highlight class="stringliteral">&quot;Intermediary<sp/>node<sp/>between<sp/>%d<sp/>&amp;<sp/>%d<sp/>:<sp/>%d<sp/>\n&quot;</highlight><highlight class="normal">,<sp/><ref refid="print_8c_1a74e13fe359ab4d26eea47074de2257a2" kindref="member">wae</ref>[i],<sp/><ref refid="print_8c_1a74e13fe359ab4d26eea47074de2257a2" kindref="member">wae</ref>[i<sp/>+<sp/>1],<sp/>intermediary);</highlight></codeline>
+<codeline lineno="81"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="82"><highlight class="normal"></highlight></codeline>
+<codeline lineno="83"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/catal/Desktop/chestie 8/Roy_Floyd/print.c"/>
+  </compounddef>
+</doxygen>
