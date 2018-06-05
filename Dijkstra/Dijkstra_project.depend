@@ -1,0 +1,140 @@
+# depslib dependency file v1.0
+1527853112 source:c:\users\iulian\desktop\project_dij\dijkstra_project\main.c
+	<stdio.h>
+	<conio.h>
+	"generate.h"
+	"print.h"
+	"dijkstra.h"
+
+1527852267 c:\users\iulian\desktop\project_dij\dijkstra_project\print.h
+
+1527852996 source:c:\users\iulian\desktop\project_dij\dijkstra_project\print.c
+	"print.h"
+
+1527853112 source:c:\users\iulian\desktop\project_dij\dijkstra_project\generate.c
+	<time.h>
+	<stdlib.h>
+	"generate.h"
+
+1527852265 c:\users\iulian\desktop\project_dij\dijkstra_project\generate.h
+
+1527852608 source:c:\users\iulian\desktop\project_dij\dijkstra_project\dijkstra.c
+	"dijkstra.h"
+
+1527852587 c:\users\iulian\desktop\project_dij\dijkstra_project\dijkstra.h
+
+1527852608 source:c:\users\iulian\desktop\dijkstra\project_dijkstra\dijkstra_project\dijkstra.c
+	"dijkstra.h"
+
+1527852587 c:\users\iulian\desktop\dijkstra\project_dijkstra\dijkstra_project\dijkstra.h
+
+1527853112 source:c:\users\iulian\desktop\dijkstra\project_dijkstra\dijkstra_project\generate.c
+	<time.h>
+	<stdlib.h>
+	"generate.h"
+
+1527852265 c:\users\iulian\desktop\dijkstra\project_dijkstra\dijkstra_project\generate.h
+
+1527853112 source:c:\users\iulian\desktop\dijkstra\project_dijkstra\dijkstra_project\main.c
+	<stdio.h>
+	<conio.h>
+	"generate.h"
+	"print.h"
+	"dijkstra.h"
+
+1527852267 c:\users\iulian\desktop\dijkstra\project_dijkstra\dijkstra_project\print.h
+
+1527852996 source:c:\users\iulian\desktop\dijkstra\project_dijkstra\dijkstra_project\print.c
+	"print.h"
+
+1527852608 source:c:\users\iulian\desktop\dijkstra\dijkstra_project\dijkstra.c
+	"dijkstra.h"
+
+1527852587 c:\users\iulian\desktop\dijkstra\dijkstra_project\dijkstra.h
+
+1527853112 source:c:\users\iulian\desktop\dijkstra\dijkstra_project\generate.c
+	<time.h>
+	<stdlib.h>
+	"generate.h"
+
+1527852265 c:\users\iulian\desktop\dijkstra\dijkstra_project\generate.h
+
+1527853112 source:c:\users\iulian\desktop\dijkstra\dijkstra_project\main.c
+	<stdio.h>
+	<conio.h>
+	"generate.h"
+	"print.h"
+	"dijkstra.h"
+
+1527852267 c:\users\iulian\desktop\dijkstra\dijkstra_project\print.h
+
+1527852996 source:c:\users\iulian\desktop\dijkstra\dijkstra_project\print.c
+	"print.h"
+
+1527852608 source:c:\users\iulian\desktop\official\dijkstra\dijkstra.c
+	"dijkstra.h"
+
+1527852587 c:\users\iulian\desktop\official\dijkstra\dijkstra.h
+
+1527853112 source:c:\users\iulian\desktop\official\dijkstra\generate.c
+	<time.h>
+	<stdlib.h>
+	"generate.h"
+
+1527852265 c:\users\iulian\desktop\official\dijkstra\generate.h
+
+1527852996 source:c:\users\iulian\desktop\official\dijkstra\print.c
+	"print.h"
+
+1527852267 c:\users\iulian\desktop\official\dijkstra\print.h
+
+1528228668 source:c:\users\iulian\desktop\chestie 8\dijkstra\dijkstra.c
+	"dijkstra.h"
+
+1528223256 c:\users\iulian\desktop\chestie 8\dijkstra\dijkstra.h
+
+1528228635 source:c:\users\iulian\desktop\chestie 8\dijkstra\generate.c
+	<time.h>
+	<stdlib.h>
+	"generate.h"
+
+1528223265 c:\users\iulian\desktop\chestie 8\dijkstra\generate.h
+
+1528228445 source:c:\users\iulian\desktop\chestie 8\dijkstra\main.c
+	<stdio.h>
+	<conio.h>
+	"generate.h"
+	"print.h"
+	"dijkstra.h"
+
+1528223261 c:\users\iulian\desktop\chestie 8\dijkstra\print.h
+
+1528228768 source:c:\users\iulian\desktop\chestie 8\dijkstra\print.c
+	"print.h"
+
+1528233212 source:c:\users\iulian\desktop\chestie 8 - copy\dijkstra\dijkstra.c
+	"dijkstra.h"
+	"print.h"
+
+1528223256 c:\users\iulian\desktop\chestie 8 - copy\dijkstra\dijkstra.h
+
+1528228635 source:c:\users\iulian\desktop\chestie 8 - copy\dijkstra\generate.c
+	<time.h>
+	<stdlib.h>
+	"generate.h"
+
+1528223265 c:\users\iulian\desktop\chestie 8 - copy\dijkstra\generate.h
+
+1528228445 source:c:\users\iulian\desktop\chestie 8 - copy\dijkstra\main.c
+	<stdio.h>
+	<conio.h>
+	"generate.h"
+	"print.h"
+	"dijkstra.h"
+
+1528223261 c:\users\iulian\desktop\chestie 8 - copy\dijkstra\print.h
+
+1528233142 source:c:\users\iulian\desktop\chestie 8 - copy\dijkstra\print.c
+	<stdio.h>
+	"print.h"
+

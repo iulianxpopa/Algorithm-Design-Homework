@@ -1,0 +1,17 @@
+all: hello
+
+hello: main.o print.o dijkstra.o generate.o
+	gcc main.o print.o dijkstra.o generate.o -o hello
+
+main.o: main.c
+	gcc -c main.c
+
+print.o: print.c
+	gcc -c print.c
+
+dijkstra.o: dijkstra.c
+	gcc -c dijkstra.c
+
+generate.o: generate.c
+	gcc -c generate.c
+

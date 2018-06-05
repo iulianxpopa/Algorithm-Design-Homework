@@ -1,0 +1,3 @@
+all:
+	gcc main.c dijkstra.c generate.c print.c -o Dijkstra
+
