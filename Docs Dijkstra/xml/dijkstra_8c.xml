@@ -1,0 +1,150 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dijkstra_8c" kind="file" language="C++">
+    <compoundname>dijkstra.c</compoundname>
+    <includes refid="dijkstra_8h" local="yes">dijkstra.h</includes>
+    <incdepgraph>
+      <node id="0">
+        <label>C:/Users/catal/Desktop/chestie 8/Dijkstra/dijkstra.c</label>
+        <link refid="dijkstra_8c"/>
+        <childnode refid="1" relation="include">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>dijkstra.h</label>
+        <link refid="dijkstra_8h"/>
+      </node>
+    </incdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="dijkstra_8c_1a956e2723d559858d08644ac99146e910" prot="public" static="no">
+        <name>INFINITY</name>
+        <initializer>99999</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/catal/Desktop/chestie 8/Dijkstra/dijkstra.c" line="6" column="9" bodyfile="C:/Users/catal/Desktop/chestie 8/Dijkstra/dijkstra.c" bodystart="6" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="dijkstra_8c_1a461b3d88c3d897ae12cb9ab16f58b9fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void dijkstra</definition>
+        <argsstring>(int **matrix, int nodes_number, int start_node, int end_node)</argsstring>
+        <name>dijkstra</name>
+        <param>
+          <type>int **</type>
+          <declname>matrix</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nodes_number</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start_node</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>end_node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>This method will calculate the shortest path between any nodes. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>**matrix graph&apos;s adjacency matrix. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nodes_number The number of graph nodes. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>start_node The node which represents the start of the searched path. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>end_node The node which represents the end of the searched path.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+distance[i] will hold the shortest distance from start node to i</para><para>predecessor[i] will hold predecessor of each node.</para><para>visited[i] marks if the node is visited(1) or not(0).</para><para>count gives the number of nodes seen so far.</para><para>Initialize predecessor[], distance[] and visited[].</para><para>nextnode gives the node at minimum distance. </para>        </inbodydescription>
+        <location file="C:/Users/catal/Desktop/chestie 8/Dijkstra/dijkstra.c" line="12" column="1" bodyfile="C:/Users/catal/Desktop/chestie 8/Dijkstra/dijkstra.c" bodystart="12" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>File which contains the processing actions. </para>    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="author"><para>Popa Ionut Iulian </para></simplesect>
+</para>    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="preprocessor">#include<sp/>&quot;<ref refid="dijkstra_8h" kindref="compound">dijkstra.h</ref>&quot;</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6" refid="dijkstra_8c_1a956e2723d559858d08644ac99146e910" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>INFINITY<sp/>99999</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12" refid="dijkstra_8h_1a461b3d88c3d897ae12cb9ab16f58b9fe" refkind="member"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dijkstra_8c_1a461b3d88c3d897ae12cb9ab16f58b9fe" kindref="member">dijkstra</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>**matrix,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nodes_number,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start_node,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>end_node){</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>distance[nodes_number<sp/>+<sp/>1];</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>predecessor[nodes_number<sp/>+<sp/>1];</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>visited[nodes_number<sp/>+<sp/>1];</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>count;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>mindistance,<sp/>nextnode,<sp/>i;</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(i<sp/>=<sp/>1;<sp/>i<sp/>&lt;=<sp/>nodes_number;<sp/>i++){</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>distance[i]<sp/>=<sp/>matrix[start_node][i];</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>predecessor[i]<sp/>=<sp/>start_node;</highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>visited[i]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="36"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/>distance[start_node]<sp/>=<sp/>0;</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/>visited[start_node]<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/>count<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">while</highlight><highlight class="normal">(count<sp/>&lt;<sp/>nodes_number){</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mindistance<sp/>=<sp/><ref refid="dijkstra_8c_1a956e2723d559858d08644ac99146e910" kindref="member">INFINITY</ref>;</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(i<sp/>=<sp/>1;<sp/>i<sp/>&lt;=<sp/>nodes_number;<sp/>i++){</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(distance[i]<sp/>&lt;<sp/>mindistance<sp/>&amp;&amp;<sp/>!visited[i]){</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>mindistance<sp/>=<sp/>distance[i];</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>nextnode<sp/>=<sp/>i;</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>Check<sp/>if<sp/>a<sp/>better<sp/>path<sp/>exists<sp/>through<sp/>nextnode.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>visited[nextnode]<sp/>=<sp/>1;</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">for</highlight><highlight class="normal">(i<sp/>=<sp/>1;<sp/>i<sp/>&lt;=<sp/>nodes_number;<sp/>i++){</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(!visited[i]){</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(mindistance<sp/>+<sp/>matrix[nextnode][i]<sp/>&lt;<sp/>distance[i]){</highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>distance[i]<sp/>=<sp/>mindistance<sp/>+<sp/>matrix[nextnode][i];</highlight></codeline>
+<codeline lineno="58"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>predecessor[i]<sp/>=<sp/>nextnode;</highlight></codeline>
+<codeline lineno="59"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="60"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="61"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="62"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>count++;</highlight></codeline>
+<codeline lineno="63"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="64"><highlight class="normal"><sp/><sp/><sp/><sp/><ref refid="print_8c_1a01afacd84ffc5fc3e8dc660873b73452" kindref="member">print_path</ref>(matrix,<sp/>nodes_number,<sp/>start_node,<sp/>end_node,distance,<sp/>predecessor);</highlight></codeline>
+<codeline lineno="65"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/catal/Desktop/chestie 8/Dijkstra/dijkstra.c"/>
+  </compounddef>
+</doxygen>

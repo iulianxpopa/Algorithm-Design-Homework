@@ -1,0 +1,59 @@
+\section{C\+:/\+Users/catal/\+Desktop/chestie 8/\+Dijkstra/dijkstra.h File Reference}
+\label{dijkstra_8h}\index{C\+:/\+Users/catal/\+Desktop/chestie 8/\+Dijkstra/dijkstra.\+h@{C\+:/\+Users/catal/\+Desktop/chestie 8/\+Dijkstra/dijkstra.\+h}}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \textbf{ I\+N\+F\+I\+N\+I\+TY}~99999
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \textbf{ dijkstra} (int $\ast$$\ast$matrix, int nodes\+\_\+number, int start\+\_\+node, int end\+\_\+node)
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\mbox{\label{dijkstra_8h_a956e2723d559858d08644ac99146e910}} 
+\index{dijkstra.\+h@{dijkstra.\+h}!I\+N\+F\+I\+N\+I\+TY@{I\+N\+F\+I\+N\+I\+TY}}
+\index{I\+N\+F\+I\+N\+I\+TY@{I\+N\+F\+I\+N\+I\+TY}!dijkstra.\+h@{dijkstra.\+h}}
+\subsubsection{I\+N\+F\+I\+N\+I\+TY}
+{\footnotesize\ttfamily \#define I\+N\+F\+I\+N\+I\+TY~99999}
+
+
+
+Definition at line 1 of file dijkstra.\+h.
+
+
+
+\subsection{Function Documentation}
+\mbox{\label{dijkstra_8h_a461b3d88c3d897ae12cb9ab16f58b9fe}} 
+\index{dijkstra.\+h@{dijkstra.\+h}!dijkstra@{dijkstra}}
+\index{dijkstra@{dijkstra}!dijkstra.\+h@{dijkstra.\+h}}
+\subsubsection{dijkstra()}
+{\footnotesize\ttfamily void dijkstra (\begin{DoxyParamCaption}\item[{int $\ast$$\ast$}]{matrix,  }\item[{int}]{nodes\+\_\+number,  }\item[{int}]{start\+\_\+node,  }\item[{int}]{end\+\_\+node }\end{DoxyParamCaption})}
+
+This method will calculate the shortest path between any nodes. 
+\begin{DoxyParams}{Parameters}
+{\em int} & $\ast$$\ast$matrix graph\textquotesingle{}s adjacency matrix. \\
+\hline
+{\em int} & nodes\+\_\+number The number of graph nodes. \\
+\hline
+{\em int} & start\+\_\+node The node which represents the start of the searched path. \\
+\hline
+{\em int} & end\+\_\+node The node which represents the end of the searched path.\\
+\hline
+\end{DoxyParams}
+distance[i] will hold the shortest distance from start node to i
+
+predecessor[i] will hold predecessor of each node.
+
+visited[i] marks if the node is visited(1) or not(0).
+
+count gives the number of nodes seen so far.
+
+Initialize predecessor[], distance[] and visited[].
+
+nextnode gives the node at minimum distance. 
+
+Definition at line 12 of file dijkstra.\+c.
+

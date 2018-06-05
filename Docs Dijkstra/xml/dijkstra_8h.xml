@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.13">
+  <compounddef id="dijkstra_8h" kind="file" language="C++">
+    <compoundname>dijkstra.h</compoundname>
+    <includedby refid="dijkstra_8c" local="yes">C:/Users/catal/Desktop/chestie 8/Dijkstra/dijkstra.c</includedby>
+    <includedby refid="main_8c" local="yes">C:/Users/catal/Desktop/chestie 8/Dijkstra/main.c</includedby>
+    <invincdepgraph>
+      <node id="5">
+        <label>C:/Users/catal/Desktop/chestie 8/Dijkstra/dijkstra.c</label>
+        <link refid="dijkstra_8c"/>
+      </node>
+      <node id="4">
+        <label>C:/Users/catal/Desktop/chestie 8/Dijkstra/dijkstra.h</label>
+        <link refid="dijkstra_8h"/>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>C:/Users/catal/Desktop/chestie 8/Dijkstra/main.c</label>
+        <link refid="main_8c"/>
+      </node>
+    </invincdepgraph>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="dijkstra_8h_1a956e2723d559858d08644ac99146e910" prot="public" static="no">
+        <name>INFINITY</name>
+        <initializer>99999</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/catal/Desktop/chestie 8/Dijkstra/dijkstra.h" line="1" column="9" bodyfile="C:/Users/catal/Desktop/chestie 8/Dijkstra/dijkstra.h" bodystart="1" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="func">
+      <memberdef kind="function" id="dijkstra_8h_1a461b3d88c3d897ae12cb9ab16f58b9fe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void dijkstra</definition>
+        <argsstring>(int **matrix, int nodes_number, int start_node, int end_node)</argsstring>
+        <name>dijkstra</name>
+        <param>
+          <type>int **</type>
+          <declname>matrix</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nodes_number</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>start_node</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>end_node</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+<para>This method will calculate the shortest path between any nodes. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>**matrix graph&apos;s adjacency matrix. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>nodes_number The number of graph nodes. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>start_node The node which represents the start of the searched path. </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>int</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>end_node The node which represents the end of the searched path.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+distance[i] will hold the shortest distance from start node to i</para><para>predecessor[i] will hold predecessor of each node.</para><para>visited[i] marks if the node is visited(1) or not(0).</para><para>count gives the number of nodes seen so far.</para><para>Initialize predecessor[], distance[] and visited[].</para><para>nextnode gives the node at minimum distance. </para>        </inbodydescription>
+        <location file="C:/Users/catal/Desktop/chestie 8/Dijkstra/dijkstra.h" line="3" column="1" bodyfile="C:/Users/catal/Desktop/chestie 8/Dijkstra/dijkstra.c" bodystart="12" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1" refid="dijkstra_8h_1a956e2723d559858d08644ac99146e910" refkind="member"><highlight class="preprocessor">#define<sp/>INFINITY<sp/>99999</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="dijkstra_8h_1a461b3d88c3d897ae12cb9ab16f58b9fe" kindref="member">dijkstra</ref>(</highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>**matrix,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>nodes_number,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>start_node,<sp/></highlight><highlight class="keywordtype">int</highlight><highlight class="normal"><sp/>end_node);</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/catal/Desktop/chestie 8/Dijkstra/dijkstra.h"/>
+  </compounddef>
+</doxygen>
