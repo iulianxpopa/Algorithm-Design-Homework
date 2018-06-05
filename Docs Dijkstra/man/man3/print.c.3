@@ -1,0 +1,88 @@
+.TH "C:/Users/catal/Desktop/chestie 8/Dijkstra/print.c" 3 "Tue Jun 5 2018" "Dijkstra" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+C:/Users/catal/Desktop/chestie 8/Dijkstra/print.c \- File which contains the printing functions\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+\fC#include 'print\&.h'\fP
+.br
+
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBINFINITY\fP   99999"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBprint_matrix\fP (int **matrix, int nodes_number)"
+.br
+.ti -1c
+.RI "void \fBprint_path\fP (int **matrix, int nodes_number, int start_node, int end_node, int distance[], int predecessor[])"
+.br
+.in -1c
+.SH "Detailed Description"
+.PP 
+File which contains the printing functions\&. 
+
+
+.PP
+\fBAuthor:\fP
+.RS 4
+Popa Ionut Iulian 
+.RE
+.PP
+
+.PP
+Definition in file \fBprint\&.c\fP\&.
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define INFINITY   99999"
+
+.PP
+Definition at line 7 of file print\&.c\&.
+.SH "Function Documentation"
+.PP 
+.SS "void print_matrix (int ** matrix, int nodes_number)"
+This method will print a matrix\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIint\fP **matrix graph's adjacency matrix\&. 
+.br
+\fIint\fP nodes_number the number of graph nodes\&. 
+.RE
+.PP
+
+.PP
+Definition at line 11 of file print\&.c\&.
+.SS "void print_path (int ** matrix, int nodes_number, int start_node, int end_node, int distance[], int predecessor[])"
+This method will print the path\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIint\fP **matrix graph's adjacency matrix\&. 
+.br
+\fIint\fP nodes_number the number of graph nodes\&. 
+.br
+\fIint\fP start_node first node pf the path\&. 
+.br
+\fIint\fP end_node last node pf the path\&. 
+.br
+\fIint\fP distance[i] the shortest distance from start node to i 
+.br
+\fIint\fP predecessor[i] predecessor of each node 
+.RE
+.PP
+
+.PP
+Definition at line 30 of file print\&.c\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Dijkstra from the source code\&.

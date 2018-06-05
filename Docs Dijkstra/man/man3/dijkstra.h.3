@@ -1,0 +1,60 @@
+.TH "C:/Users/catal/Desktop/chestie 8/Dijkstra/dijkstra.h" 3 "Tue Jun 5 2018" "Dijkstra" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+C:/Users/catal/Desktop/chestie 8/Dijkstra/dijkstra.h
+.SH SYNOPSIS
+.br
+.PP
+.SS "Macros"
+
+.in +1c
+.ti -1c
+.RI "#define \fBINFINITY\fP   99999"
+.br
+.in -1c
+.SS "Functions"
+
+.in +1c
+.ti -1c
+.RI "void \fBdijkstra\fP (int **matrix, int nodes_number, int start_node, int end_node)"
+.br
+.in -1c
+.SH "Macro Definition Documentation"
+.PP 
+.SS "#define INFINITY   99999"
+
+.PP
+Definition at line 1 of file dijkstra\&.h\&.
+.SH "Function Documentation"
+.PP 
+.SS "void dijkstra (int ** matrix, int nodes_number, int start_node, int end_node)"
+This method will calculate the shortest path between any nodes\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIint\fP **matrix graph's adjacency matrix\&. 
+.br
+\fIint\fP nodes_number The number of graph nodes\&. 
+.br
+\fIint\fP start_node The node which represents the start of the searched path\&. 
+.br
+\fIint\fP end_node The node which represents the end of the searched path\&.
+.RE
+.PP
+distance[i] will hold the shortest distance from start node to i
+.PP
+predecessor[i] will hold predecessor of each node\&.
+.PP
+visited[i] marks if the node is visited(1) or not(0)\&.
+.PP
+count gives the number of nodes seen so far\&.
+.PP
+Initialize predecessor[], distance[] and visited[]\&.
+.PP
+nextnode gives the node at minimum distance\&. 
+.PP
+Definition at line 12 of file dijkstra\&.c\&.
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Dijkstra from the source code\&.
