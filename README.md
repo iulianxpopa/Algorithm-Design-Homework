@@ -1,1 +1,1 @@
-# AD_PROJECT
+# Algorithm Design Homework
